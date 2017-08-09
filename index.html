@@ -1,23 +1,77 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <style type="text/css">
-      body {
-        font-family:sans-serif;
-        margin-top: 100px;
-        background-color: #444;
-        background-image: url('dragon-head.svg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-      }
-      h1 {
-        text-align:center;
-      }
-    </style>
+    <meta charset="utf-8">
+
+    <title>Elfwerks</title>
+    <meta name="description" content="Landing page for elfwerks.org">
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Fredericka+the+Great">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Josefin+Slab">
+
+    <link rel="stylesheet" href="/landing-style.css">
   </head>
 
   <body>
-    <h1>Here be Dragons.</h1>
-  </body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-xs-12">
+          <img class="dragon" src="/dragon-head.svg" alt="dragons head">
+        </div>
+        <div class="col-sm-9 col-xs-12 title-banner">
+          <h1 class="title-text">Elfwerks</h1>
+          <p>~ you are in a twisty maze of passages, all alike ~</p>
+          <p>~ here be dragons ~</p>
+        </div>
+      </div>
+      <div class="row">
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 col-xs-12">
+          <h2>People:</h2>
+        </div>
+        <div class="col-sm-9 col-xs-12">
+          <h3 class="people"><a href="/ericg">Eric Gustafson</a></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 col-xs-12">
+          <h2>Services:</h2>
+        </div>
+        <div class="col-sm-9 col-xs-12">
+          <h3>
+            <a href="https://status.slack.com">
+              <img src="slack_mark_monochrome_black.svg"
+                   height="80" width="80">
+            </a>
+            <a href="https://elfwerks.slack.com">elfwerks.slack.com</a>
+          </h3>
+          <h3>
+            email
+            <img src="https://app.statuscake.com/button/index.php?Track=84yx6bSZgy&Days=30&Design=6" />
+          </h3>
+          <h3>
+            <a href="http://uptime.statuscake.com/?TestID=mwCpmm5smf">
+              Public Monitoring
+            </a>
+          </h3>
+        </div>
+      </div>
+    </div>
 
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"/>
+  </body>
 </html>
