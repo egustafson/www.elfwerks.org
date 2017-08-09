@@ -5,32 +5,91 @@
     <title>Eric Gustafson</title>
     <meta name="description" content="about Eric Gustafson">
     <meta name="author" content="Eric Gustafson">
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Fredericka+the+Great">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Josefin+Slab">
+
+    <link rel="stylesheet" href="/style.css">
     <style>
      html,body {
        margin-top: 20px;
        margin-left: 50px;
        margin-right: 50px;
      }
-     header h1 {
-       font-size: 40px;
-       font-family: sans-serif;
-       font-weight: normal;
+     .title {
+       font-size: 60px;
+       margin-bottom: 50px;
      }
-     img {
+     img.headshot {
        border-radius: 87px;
-     }
-     .center {
-       text-align: center
      }
     </style>
   </head>
+
   <body>
-    <header>
-      <h1>Eric Gustafson</h1>
-    </header>
-    <div class="center">
-      <img src="https://gravatar.com/avatar/2c99b318aed4a0e89c9eac33f9028b36?s=175"
-           height="175" width="175" alt="photo of Eric Gustafson">
+    <div class="container">
+      <div class="row title">
+        <div class="col-sm-8 col-xs-12">
+          <h1 class="title">Eric Gustafson</h1>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+          <img class="image-responsive img-circle center-block"
+               src="https://gravatar.com/avatar/2c99b318aed4a0e89c9eac33f9028b36?s=175"
+               height="175" width="175" alt="photo of Eric Gustafson">
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+          <h3>
+            <a href="https://rawgit.com/egustafson/latexcv/master/classic/main.pdf">
+              <img src="/images/icons8-document.svg" alt="document image"> Resume
+            </a>
+          </h3>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+          <a href="https://www.linkedin.com/in/ericggustafson/">
+            <h3><image src="/images/linkedin-logo.svg" alt="linked-in logo" height="40"/></h3>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+          <a href="https://www.slideshare.net/egg9">
+            <h3><image src="/images/slideshare.svg" alt="SlideShare logo" height="40"/></h3>
+          </a>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+          <h3>
+            <a href="https://twitter.com/elfwerks">
+              <image src="/images/twitter-logo-blue.svg" alt="Twitter" height="60"/>@elfwerks
+            </a>
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-xs-12 text-center">
+          <h3>
+            <a href="https://github.com/egustafson">
+              <image src="/images/github-mark-64px.png" alt="GitHub logo" height="40"/>
+              @egustafson</a>
+          </h3>
+        </div>
+        <div class="col-sm-6 col-xs-12 text-center">
+          <h3>
+            <a href="https://egustafson.github.io">
+              <img src="/images/blog-icon-box-orange-64.png" alt="blog icon" height="40"/>
+              Blog</a>
+          </h3>
+        </div>
+
+      </div>
     </div>
   </body>
 </html>
